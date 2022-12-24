@@ -524,6 +524,21 @@ img {
 
 .single-gallery img {
     border-radius: 15px;
+    width: auto;
+}
+
+.gallery_container .view span {
+    position: relative;
+}
+
+.gallery_container .view span::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: var(--gradient);
+    bottom: 0;
+    right: 0;
 }
 
 /* gallery section end */
