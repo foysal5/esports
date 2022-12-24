@@ -401,3 +401,129 @@ img {
 
 
 /* footer section end */
+
+/* blog section start */
+.blog .blog-menu li a {
+    position: relative;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.blog .blog-menu li .active {
+    color: var(--yellow);
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 2px;
+}
+
+.blog .blog-menu li:first-child a {
+    padding-left: 0;
+}
+
+.blog .blog-menu li:last-child a {
+    padding-right: 0;
+}
+
+.blog .blog-menu li:last-child a::after {
+    display: none;
+}
+
+.single-blog {
+    margin-bottom: 20px;
+}
+
+.single-blog img {
+    border-radius: 15px;
+}
+
+.blog .blog-menu li a::after {
+    content: '';
+    width: 1px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.single-blog .title {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--yellow);
+}
+
+.single-blog p {
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.single-blog .link {
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.blog_container .view span {
+    position: relative;
+}
+
+.blog_container .view span::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: var(--gradient);
+    bottom: 0;
+    right: 0;
+}
+
+/* blog section end */
+
+/* gallery section start */
+.gallery .gallery-menu li a {
+    position: relative;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.gallery .gallery-menu li .active {
+    color: var(--yellow);
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 2px;
+}
+
+.gallery .gallery-menu li:first-child a {
+    padding-left: 0;
+}
+
+.gallery .gallery-menu li:last-child a {
+    padding-right: 0;
+}
+
+.gallery .gallery-menu li:last-child a::after {
+    display: none;
+}
+
+.gallery .gallery-menu li a::after {
+    content: '';
+    width: 1px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.single-gallery {
+    margin-bottom: 20px;
+}
+
+.single-gallery img {
+    border-radius: 15px;
+}
+
+/* gallery section end */
