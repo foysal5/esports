@@ -626,10 +626,15 @@ img {
     color: #fff;
 }
 
+
 .shop_container h2 {
     font-weight: 500;
     font-size: 26px;
     color: var(--yellow);
+}
+
+.shop_container .single-product img {
+    border-radius: 10px;
 }
 
 
@@ -645,6 +650,20 @@ img {
 .shop_container .single-product p {
     font-weight: 700;
     font-size: 22px;
+}
+
+.shop_container .single-product .buy-btn {
+    width: 153px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient);
+    border-radius: 26px;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 /* shop section end */
